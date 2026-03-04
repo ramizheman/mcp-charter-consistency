@@ -220,7 +220,7 @@ This graph infrastructure enables additional analysis of MCP data. Contact me if
 
 ## Contact
 
-**Email:** rami.zheman@gmail.com  
+**Email:** rami.zheman [at] gmail.com  
 **LinkedIn:** [linkedin.com/in/ramizheman](https://www.linkedin.com/in/ramizheman)
 
 ---
