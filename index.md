@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # MCP Charter Consistency Analysis
 
 ## Why This Matters
