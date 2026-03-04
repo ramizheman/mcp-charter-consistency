@@ -208,7 +208,7 @@ The analysis pipeline includes:
 
 [View the code for charter consistency, RCI, and pattern-level error analysis on GitHub](https://github.com/ramizheman/mcp-charter-consistency)
 
-See README.md for file descriptions. Note - Graph creation code not included.
+See README_Charter_Analysis.md for file descriptions. Note - Graph creation code not included.
 
 ## What's Next
 
