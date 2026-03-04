@@ -17,7 +17,7 @@ I wanted to answer a specific question: When two charters see the exact same sho
 
 To create this analysis, I:
 
-1. Built a graph database of ~8,800 MCP matches (~863,000 error points)
+1. Built a graph database of ~8,800 MCP matches (~863,000 labeled error shots, of which ~560k occur in rallies of ≥3 shots)
 2. Grouped points by identical shot sequences (the two shots immediately before the error)
 3. Compared each charter's forced/unforced split against the population consensus for those same patterns
 4. Analyzed consistency across different surfaces (hard/clay/grass)
@@ -170,7 +170,7 @@ Both recorder bias (labeling) and selection bias (coverage) matter. Both are now
 
 ### Data
 - 8,800+ matches from MCP
-- ~863,000 error points analyzed
+- ~863,000 labeled error shots, of which ~560k occur in rallies of ≥3 shots (serve → return errors are structurally excluded because the model requires two prior shots to define a sequence)
 - Shot sequences normalized (serves by target, groundstrokes by direction, intent, shot modifiers)
 - Surfaces standardized (hard/clay/grass)
 
