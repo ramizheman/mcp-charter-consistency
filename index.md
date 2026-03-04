@@ -221,7 +221,7 @@ This graph infrastructure enables additional analysis of MCP data. Contact me if
 ## Contact
 
 **Email:** rami.zheman@gmail.com  
-**LinkedIn:** linkedin.com/in/ramizheman
+**LinkedIn:** [linkedin.com/in/ramizheman](https://www.linkedin.com/in/ramizheman)
 
 ---
 
