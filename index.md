@@ -52,9 +52,9 @@ This "Big Data" view maps Pattern Disagreement (Y-axis) against the Consensus Fo
 
 A significant "Arch" emerges. Disagreement is lowest at the extremes:
 - **Far left (0-20% forced):** Patterns where charters overwhelmingly agree the resulting error is unforced (e.g., slice down the middle where the next shot is an error)
-- **Far right (80-100% forced):** Patterns where charters overwhelmingly agree the resulting error is forced (e.g., forehand approach shot inside out where the next shot is an error)
+- **Far right (80-100% forced):** Patterns where charters overwhelmingly agree the resulting error is forced (e.g., aggressive approach shots where the next shot is an error)
 
-Disagreement peaks in the 'Grey Zone' (~50–80% Forced Rate) where tactical interpretation matters most. The red gradient at the top highlights "High-Entropy" sequences. These are dominated by approach shots down the middle, volleys, and transition play where even experienced charters fundamentally disagree about whether pressure was created.
+Disagreement peaks in the 'Grey Zone' (~50–80% Forced Rate) where tactical interpretation matters most. The red gradient at the top highlights "High-Entropy" sequences. These are dominated by down the middle shots, volleys, and transition play where even experienced charters fundamentally disagree about whether pressure was created.
 
 Disagreement stabilizes around ~30 percentage points for high-frequency patterns. This suggests a stable level of interpretive variance that persists even in common tactical situations. The most extreme disagreement values (>40) are concentrated in low-sample patterns and likely reflect some statistical volatility in addition to structural disagreement.
 
@@ -76,7 +76,7 @@ Even within these high-frequency patterns, disagreement ranges from 15-35 (stand
 
 The disagreement arch persists across all three surfaces with modest distributional shifts (bubble size = number of observations). Clay patterns concentrate slightly toward lower forced %, grass toward higher forced %, and hard court shows balanced distribution. This suggests surface speed modestly influences baseline forced/unforced rates, but the 'Grey Zone' of tactical ambiguity remains consistent across surfaces.
 
-Surface-specific tactical patterns emerge (e.g., slice and drop shot disagreement elevated on clay), though small sample sizes (n=50-100 for some combinations) limit interpretation.
+Surface-specific tactical patterns emerge (e.g., slice and drop shot sequence disagreement elevated on clay), though small sample sizes (n=50-100 for some combinations) limit interpretation.
 
 ## The "Problem Children": Where Charters Struggle Most
 
@@ -90,7 +90,7 @@ The following displays the same chart with Sackmann's matches excluded.
 
 ![Highest Disagreement Without Sackmann](Top_Disagreement_Focus_Zoom_No_Sackmann.png)
 
-When Jeff Sackmann is excluded from the analysis, the subjectivity persists through patterns like (RALLY, DROP_BH_CC) -> (RALLY, GS_BH_DTL), which carries a disagreement (standard deviation) of 44.87 over 66 points. This pattern, a backhand crosscourt dropshot followed by a backhand groundstroke down the line, reveals a significant rift in how the "field" interprets transition play. While the population mean is 88%, the distribution remains heavily polarized: 12 recorders (60% of the sample) classified the sequence as 100% forced, while 6 low-volume recorders who saw it once rated it 0% forced. This confirms that even without the dataset's primary anchor, a near-50-point standard deviation remains, proving that the 'Grey Zone' is a structural reality of the sport rather than an artifact of one expert’s influence. In this case, charters fundamentally disagree about whether the tactical pressure of defending a down-the-line reply after hitting a dropshot is enough to warrant a forced error classification. This highlights a rift in how we judge 'recovery' errors: is the player forced by the sprint they triggered, or is the missed recovery an unforced failure of their own tactical play?
+When Jeff Sackmann is excluded from the analysis, the subjectivity persists through patterns like (RALLY, DROP_BH_CC) -> (RALLY, GS_BH_DTL), which carries a disagreement (standard deviation) of 44.87 over 66 points. This pattern, a backhand crosscourt dropshot followed by a backhand groundstroke down the line, leading to an error, reveals a significant rift in how the "field" interprets transition play. While the population mean is 88%, the distribution remains heavily polarized: 12 recorders (60% of the sample) classified the sequence as 100% forced, while 6 low-volume recorders who saw it once rated it 0% forced. This confirms that even without the dataset's primary anchor, a near-50-point standard deviation remains, proving that the 'Grey Zone' is a structural reality of the sport rather than an artifact of one expert’s influence. In this case, charters fundamentally disagree about whether the tactical pressure of defending a down-the-line reply after hitting a dropshot is enough to warrant a forced error classification. This highlights a rift in how we judge 'recovery' errors: is the player forced by the sprint they triggered, or is the missed recovery an unforced failure of their own tactical play?
 
 Comparing the two views reveals the nature of disagreement:
 
