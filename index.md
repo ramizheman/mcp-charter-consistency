@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-# MCP Charter Consistency Analysis
+# Match Charting Project Charter Consistency Analysis
 
 ## Why This Matters
 
-The Match Charting Project is an incredible resource. It has over 17,000 professional tennis matches charted by volunteers, freely available to anyone. But like any crowd-sourced dataset, there's an important question: how consistent are the charters?
+Tennis Abstract's [Match Charting Project] (https://www.tennisabstract.com/charting/meta.html) is an incredible resource. It has over 17,000 professional tennis matches charted by volunteers, freely available to anyone. But like any crowd-sourced dataset, there's an important question: how consistent are the charters?
 
 This isn't about finding mistakes. It's about understanding whether different charters see the same patterns differently. And if so, helping everyone chart more consistently.
 
@@ -64,9 +64,9 @@ This arch reveals something profound: **human subjectivity in tennis isn't rando
 
 When Jeff Sackmann is excluded from the analysis (removing 33% of all matches), the subjectivity arch persists but with reduced magnitude. Peak disagreement drops from ~57 to ~45. The detailed implications of this test are discussed below.
 
-![Top 15 Most Frequent Patterns](Pattern_Disagreement_Top_10.png)
+![Top 10 Most Frequent Patterns](Pattern_Disagreement_Top_10.png)
 
-By filtering for the Top 15 most frequent patterns (representing the vast majority of professional tennis play), we move from "noise" to "signal." These are the bread-and-butter sequences of professional tennis: serve returns, cross court baseline rallies, and common tactical situations.
+By filtering for the Top 10 most frequent patterns (representing the vast majority of professional tennis play), we move from "noise" to "signal." These are the bread-and-butter sequences of professional tennis: serve returns, cross court baseline rallies, and common tactical situations.
 
 Even within these high-frequency patterns, disagreement ranges from 15-35 (standard deviation). The most common sequences in tennis (patterns that occur thousands of times across the dataset) still generate meaningful interpretive disagreement.
 
@@ -82,7 +82,7 @@ Surface-specific tactical patterns emerge (e.g., slice and drop shot sequence di
 
 ![Highest Disagreement Patterns](Top_Disagreement_Focus_Zoom.png)
 
-This visualization isolates the top 20 patterns with the highest disagreement. The highest disagreement pattern is (RALLY, GS_FH_DM) -> (RALLY, APP_BH_DM) with a disagreement (standard deviation) of 57 over 76 points. As noted earlier, this pattern hovers near the lower sample size threshold (50 points), showing how statistical volatility and human subjectivity combine to create extreme disagreement.
+This visualization isolates the top 7 patterns with the highest disagreement. The highest disagreement pattern is (RALLY, GS_FH_DM) -> (RALLY, APP_BH_DM) with a disagreement (standard deviation) of 57 over 76 points. As noted earlier, this pattern hovers near the lower sample size threshold (50 points), showing how statistical volatility and human subjectivity combine to create extreme disagreement.
 
 In this sequence, a neutral forehand down the middle is followed by a backhand approach shot down the middle. These sequences dominate the high-disagreement list because pressure depends almost entirely on depth, pace, and timing rather than horizontal direction, making classification especially ambiguous without tracking data. While the population mean is 77% forced, the distribution is polarized: high-volume charters like Sackmann (33 points observed) rate it at 97% forced, while six lower-volume recorders who saw it once rated it 0% forced. This demonstrates how individual interpretive frameworks, rather than just "noise," drive the 57-point standard deviation in the 'Grey Zone.' The charters that recorded this pattern fundamentally disagree about whether an approach shot down the middle creates enough pressure to force an error from the opponent.
 
