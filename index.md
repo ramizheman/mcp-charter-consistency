@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-# Match Charting Project Charter Consistency Analysis
+# Consistency in Forced vs Unforced Error Classification in the Match Charting Project
+### How consistently do tennis charters classify forced vs unforced errors?  
+### Evidence from 8,800+ Match Charting Project matches
 
 ## Why This Matters
 
